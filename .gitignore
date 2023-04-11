@@ -1,0 +1,4 @@
+access
+__pycache__/
+.idea/
+.env
