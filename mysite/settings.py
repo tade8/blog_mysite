@@ -45,10 +45,10 @@ INSTALLED_APPS = [
     'rest_framework',
     'djoser',
     'apply',
+    'debug_toolbar',
     'django_filters',
     'blog',
     'core',
-    'debug_toolbar'
 ]
 
 # REST_FRAMEWORK = {

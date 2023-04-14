@@ -1,3 +1,6 @@
 access
 __pycache__/
 .idea/
+.env
+.vscode/
+.pytest_cache

@@ -24,7 +24,7 @@ urlpatterns = [
     path('', include('puppies.urls')),
     path('auth/', include('djoser.urls')),
     path('auth/', include('djoser.urls.jwt')),
-    path('__debug__/', include('debug_toolbar.urls')),
+    path('__debug__/', include(debug_toolbar.urls)),
     path('blog/', include('blog.urls', namespace='blog')),
     path('api-apply/', include('rest_framework.urls',
                                namespace='rest_framework')),
